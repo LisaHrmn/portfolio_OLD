@@ -89,19 +89,6 @@ nav a:hover{
     padding-bottom: 20px;
 }
 
-@media screen and (max-width:800px){
-    #hello-world{
-        font-size: 30px;
-    }
-    .name{
-        font-size: 30px;
-    }
-    .desc{
-        font-size: 15px;
-        margin-bottom: 200px;
-    }
-}
-
 #color-invert{
     background: none;
     border: none;
@@ -117,6 +104,25 @@ nav a:hover{
     margin-left: 5vw;
     color: #F3D250;
     text-decoration: underline;
+}
+
+@media screen and (max-width:600px){
+    .section-1-heading{
+        justify-content: center;
+    }
+    .style-image{
+        display: none;
+    }
+    #hello-world{
+        font-size: 50px;
+    }
+    .name{
+        font-size: 60px;
+    }
+    .desc{
+        font-size: 25px;
+        margin-bottom: 200px;
+    }
 }
 
 /* section-2 */
