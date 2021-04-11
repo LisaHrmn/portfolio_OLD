@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website Lisa Keers</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend+Exa&display=swap">
+</head>
+<body onload="typeWriter()">
+    <div class="container">
+        <!--Section 1-->
+        <section class="section-1" id="section-1">
+            <nav>
+                <a class="color-change" class="" href="#section-2">about</a>
+                <a class="color-change" href="#section-3">portfolio</a>
+                <a class="color-change" href="#section-4">contact</a>
+            </nav>
+
+            <div class="mid">
+                <div class="style-image">
+                    <img src="images/squares.png">
+                </div>
+
+                <div class="section-1-heading">
+                    <h1 id="hello-world"></h1>
+                    <h1 class="name" id="name">I'm Lisa.</h1>
+                    <h1 class="desc">I like to code and design</h1>
+                </div>
+            </div>
+
+            <a id="color-invert" href="#" onclick="changeStyle()">these colors are too bright.. invert them</a>
+            <a id="color-invert-back" href="#" onclick="changeStyleBack()">these colors are too dark.. invert them</a>
+
+        </section>
+
+        <!--Section 2 about-->
+        <section class="section-2" id="section-2">
+            <div class="section-2-heading">
+                <h1 class="color-change">about me</h1>
+            </div>
+            
+            <div class="section-2-text color-change-2">
+                <p>Hey! My name is Lisa Keers.</p>
+                <p>I'm currently a second year student at</p>
+                <p>Hogeschool Rotterdam studying</p>
+                <p>Creative Media and  Game Technologies (CMGT).</p>
+                <br>
+                <p>I aspire towards a career that will allow me to</p>
+                <p>channel my creativity through designing</p>
+                <p>and crafting engaging software.</p>
+                <br>
+                <p>Here are some programming languages</p>
+                <p>I've worked with recently:<p>
+                <p>HTML & CSS</p>
+                <p>Javascript</p>
+                <p>Typescript</p>
+                <p>PHP</p>
+                <br>
+                <p>Check out some of my projects down below!</p>
+            </div>
+
+            <div id="image-change-container">
+                <img src="images/face1.png">
+                <div id="image-clipper">
+                    <img src="images/face2.png">
+                </div>
+            </div>
+        </section>
+
+        <!--Section 3 portfolio-->
+        <section class="section-3" id="section-3">
+            <h1 class="section-3-heading color-change">portfolio</h1>
+            <div class="projects-container">
+                <div class="project">
+                    <h1 class="project-name">project name</h1>
+                    <h2 class="project-tech">used tech</h2>
+                    <img class="project-image" src="" alt="Project image">
+                    <a class="project-link" href="">code</a>
+                </div>
+                <div class="project">
+                    <h1 class="project-name">project name</h1>
+                    <h2 class="project-tech">used tech</h2>
+                    <img class="project-image" src="" alt="Project image">
+                    <a class="project-link" href="">code</a>
+                </div>
+                <div class="project">
+                    <h1 class="project-name">project name</h1>
+                    <h2 class="project-tech">used tech</h2>
+                    <img class="project-image" src="" alt="Project image">
+                    <a class="project-link" href="">code</a>
+                </div>
+            </div>
+        </section>
+
+        <!--Section 4 contact-->
+        <section class="section-4" id="section-4">
+            <h1 class="section-4-heading color-change">contact me!</h1>
+            <div class="contact-links">
+                <a class="color-change" href="https://nl.linkedin.com/in/lisa-keers-752028198/nl?trk=people-guest_people_search-card">LinkedIn</a>
+                <a class="color-change" href="https://github.com/LisaKeers">GitHub</a>
+            </div>
+            <h2 class="mail color-change">lisakeers@icloud.com</h2>
+        </section>
+
+    </div>
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>
