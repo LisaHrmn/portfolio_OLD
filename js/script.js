@@ -1,4 +1,6 @@
 //typewrite
+window.addEventListener("load", typeWriter)
+
 let i = 0
 let txt = "HELLO WORLD,"
 let speed = 175
@@ -12,6 +14,8 @@ function typeWriter(){
 }
 
 //change style
+document.getElementById("color-invert").addEventListener("click", changeStyle)
+
 function changeStyle(){
     document.body.style.backgroundColor = "#24305E"
     document.getElementById("color-invert").style.display = "none";
@@ -26,6 +30,8 @@ function changeStyle(){
         x2[i].style.color = "white";
     }
 }
+
+document.getElementById("color-invert-back").addEventListener("click", changeStyleBack)
 
 function changeStyleBack(){
     document.body.style.backgroundColor = "#F3D250"
