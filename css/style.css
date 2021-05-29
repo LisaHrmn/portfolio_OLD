@@ -29,25 +29,19 @@ nav{
     display: flex;
     flex: 100%;
     justify-content: flex-end;
+    padding-right: 20px;
 }
 
 nav a{
     color: #24305E;
     text-decoration: underline;
-    margin-right: 20px;
-    margin-left: 10px;
     margin-top: 10px;
     font-size: 20px;
+    margin-left: 10px;
 }
 
 nav a:hover{
     color: white;
-}
-
-@media screen and (max-width:600px){
-    nav{
-        justify-content: space-around;
-    }
 } 
 
 .style-image img{
@@ -125,7 +119,7 @@ nav a:hover{
     }
 }
 
-/* section-2 */
+/* section-2
 .section-2{
     width: 100%;
     height: 100vh;
@@ -138,10 +132,9 @@ nav a:hover{
     display: flex;
     width: 100%;
     color: #24305E;
+    justify-content: center;
     font-size: 40px;
     margin-top: 50px;
-    margin-left: 16%;
-    margin-bottom: 50px;
 } 
 
 .section-2-text{
@@ -169,7 +162,7 @@ nav a:hover{
     }
 }
 
-/*image change*/
+/* image change
 #image-change-container {
     margin-top: 100px;
     margin-bottom: 15%;
@@ -198,7 +191,7 @@ nav a:hover{
     width: 200%;
     position: absolute;
     height: 100%;
-} 
+}   */
 
 /* section-3 */
 .section-3{
@@ -212,7 +205,7 @@ nav a:hover{
 .section-3-heading{
     color: #24305E;
     font-size: 40px;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 50px;
 }
 
@@ -235,19 +228,26 @@ nav a:hover{
     justify-content: center;
     align-items: center;
     margin: 10px;
+    padding: 10px;
     background-color: white;
     border-radius: 25px;
 }
 
 .project-name{
     font-size: 20px;
+    text-align: center;
+}
+
+.project-tech{
+    margin: 5px;
+    text-align: center;
 }
 
 .project-link{
     font-size: 15px;
     color: #333333;
     text-decoration: underline;
-    margin-bottom: 5px;
+    margin-bottom: 7px;
 }
 
 /* section-4 */
@@ -263,7 +263,7 @@ nav a:hover{
     color: #24305E;
     font-size: 40px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .contact-links{
@@ -277,6 +277,10 @@ nav a:hover{
     font-size: 20px;
     color: #24305E;
     text-decoration: underline;
+}
+
+.contact-links a:hover{
+    color: white;
 }
 
 .mail{
